@@ -65,6 +65,10 @@ function calculate(){
     let inputEl = document.getElementById('input');
     total = eval(inputEl.value);
     inputEl.value = total;
+
+    if (inputEl.value === "undefined") {
+        inputEl.value = "";
+    }
 }
 function deleteChar(){
     let inputEl = document.getElementById('input');
