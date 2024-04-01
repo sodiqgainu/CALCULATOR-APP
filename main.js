@@ -76,6 +76,6 @@ function deleteChar(){
 }
 function clearScreen(){
     let inputEl = document.getElementById('input');
-    inputEl.value = "";
+    inputEl.value = ""
 
 }
